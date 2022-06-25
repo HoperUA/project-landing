@@ -1,10 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
 }
 .headercontainer {
     display: flex;
@@ -35,12 +31,14 @@ a {
     color: #f9faf8;  
 }
 
-.headerlinks a {
+a {
     font-size: 18px;
-    color: #e5e7eb;
-    margin-left: 30px;  
+    color: #e5e7eb; 
 }
 
+.marginlink {
+    margin-left: 30px;  
+}
 a:hover {
     color:rgb(155, 155, 155);
 } 
