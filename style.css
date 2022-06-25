@@ -3,9 +3,10 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 }
-.mainwrapper {
+.headercontainer {
     display: flex;
     justify-content: center;
     background: #1f2937;
@@ -88,18 +89,16 @@ ul {
     justify-content: space-between;
 }
 
-button {
-   background-color: #3882f6;
-   color: #f9faf8;
-   border: none;
-   border-radius: 8px;
-   padding: 10px 35px;
-   margin-top: 25px;
-   text-align: center;
-   font-weight: 600;
-   transition-duration: 0.4s;
-   cursor: pointer;
-   display: inline-block;
+#signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    transition-duration: 0.4s;
 }
 
 button:hover {
@@ -107,8 +106,7 @@ button:hover {
     color: white;
 }
 
-.body1 {
-    font-family: 'Courier New', Courier, monospace;
+.imgcontainer {
     text-align: center;
 }
 .img {
@@ -124,29 +122,23 @@ button:hover {
     margin: 100px 0px 32px 0px;
   }
 
-.container {
+.imgbox {
     display: flex;
     justify-content: center;
     gap: 52px;
-}
-
-.text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .info {
     max-width: 200px;
   }
 
-.quotebox {
+.quotecontainer {
     background-color: #e5e7eb;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-.quote {
-    
-}
+
 .quotetext {
     font-size: 36px;
     font-weight: light;
@@ -160,4 +152,55 @@ button:hover {
     text-align: right;
     padding-right: 100px;
     padding-bottom: 100px;
+}
+
+.ctacontainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ctabox {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 60px 30px 60px;
+    align-items: center;
+    border-radius: 8px;
+    margin: 70px 70px auto 70px;
+    
+}
+
+.ctatextbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctatitle {
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 24px;
+}
+.ctapara {
+    color: #e5e7eb;
+}
+
+#signupcta {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
+    padding: 10px 35px;
+    text-align: center;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    margin-left: 50px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 72px;
+    background-color: #1f2937;
+    color:#e5e7eb;
 }
