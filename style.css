@@ -1,7 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-   /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
 
 }
 .mainwrapper {
@@ -14,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 400px;
-    padding: 20px 100px 70px 100px;
+    padding: 20px 80px 50px 80px;
 }
 
 .topheader {
@@ -28,10 +29,6 @@ a {
     transition-duration: 0.4s;
 }
 
-a:hover {
-    color:rgb(155, 155, 155);
-} 
-
 .logo a {
     font-size: 24px;
     color: #f9faf8;  
@@ -43,12 +40,14 @@ a:hover {
     margin-left: 30px;  
 }
 
- 
+a:hover {
+    color:rgb(155, 155, 155);
+} 
 
 .bottomheader {
     display: flex;
+    gap: 100px;
     justify-content: space-between;
-    gap: 150px;
 }
 
 .herotextbox {
@@ -61,7 +60,7 @@ a:hover {
 .herotextbox h1 {
     font-size: 48px;
     font-weight: 900;
-    margin: 0px;
+    margin: 100px 0px 0px 0px;
     color: #f9faf8;
 }
 
@@ -74,10 +73,11 @@ a:hover {
 
 #hero-img {
     display: block;
-    max-width: 450px;
-    min-width: 200px;
-    height: auto;
+    max-width: 500px;
+    min-width: 100px;
+    max-height: 350px;
     border-radius: 5px;
+    margin: 100px 0px 0px 0px;
 }
 
 ul {
@@ -105,4 +105,59 @@ button {
 button:hover {
     background-color: #ce2727;
     color: white;
+}
+
+.body1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 100px 0px 32px 0px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info {
+    max-width: 200px;
+  }
+
+.quotebox {
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.quote {
+    
+}
+.quotetext {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 50px 0px 50px;
+    max-width: 1000px;
+  }
+.quotesignature {
+    font-weight: 900;
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
