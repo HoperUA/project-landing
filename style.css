@@ -2,7 +2,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
    /* min-height: 100vh; */
-   
 
 }
 .mainwrapper {
@@ -21,29 +20,30 @@ body {
 .topheader {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
+
+a {
+    text-decoration: none;  
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color:rgb(155, 155, 155);
+} 
 
 .logo a {
-    color: #f9faf8;
     font-size: 24px;
-    outline: 1px solid white;
-    text-decoration: none;
-    transition-duration: 0.4s;   
-}
-
-.logo a:hover {
-    color:aquamarine;
-    outline: 1px solid aquamarine;
+    color: #f9faf8;  
 }
 
 .headerlinks a {
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration: none;
-    margin-left: 30px;
+    margin-left: 30px;  
 }
+
+ 
 
 .bottomheader {
     display: flex;
@@ -57,6 +57,7 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
+
 .herotextbox h1 {
     font-size: 48px;
     font-weight: 900;
@@ -76,7 +77,7 @@ body {
     max-width: 450px;
     min-width: 200px;
     height: auto;
-
+    border-radius: 5px;
 }
 
 ul {
